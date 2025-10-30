@@ -74,6 +74,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Your Name - your_email@example.com
+Your Name - Darshanwalhe1510@gmail.com
 
-Project Link: [https://github.com/your_username/RationTracker](https://github.com/your_username/RationTracker)
+Project Link: https://github.com/1510darshan/Ration_Tracker

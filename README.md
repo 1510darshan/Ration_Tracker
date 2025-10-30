@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 1.  **Clone the repo**
     ```sh
-    git clone https://github.com/your_username/RationTracker.git
+    [git clone https://github.com/your_username/RationTracker.git](https://github.com/1510darshan/Ration_Tracker)
     ```
 2.  **Open the project** in Android Studio.
 3.  **Build the project** with Gradle.

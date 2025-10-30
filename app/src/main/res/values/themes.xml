@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.RationTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Disable system splash -->
+        <item name="android:windowSplashScreenAnimatedIcon">@null</item>
+        <item name="android:windowSplashScreenBackground">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBrandingImage">@null</item>
+    </style>
+
+    <style name="Theme.RationTracker" parent="Base.Theme.RationTracker" />
+</resources>

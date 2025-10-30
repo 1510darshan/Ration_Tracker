@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ration Tracker</string>
+    <string name="myration">MyRation</string>
+    <string name="GetStartedString">Keep your store running smoothly with instant access to inventory and customer records</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="introLine">Get Started with</string>
+    <string name="enter_number">Enter Phone Number</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_store_number">Enter Store Number</string>
+    <string name="login">LogIn</string>
+    <string name="signUp">Register</string>
+    <string name="already_have_account">Already have Account?</string>
+    <string name="title_activity_navigation_view">NavigationView</string>
+    <string name="title_customer">Customer</string>
+    <string name="title_inventory">Inventory</string>
+    <string name="title_message">Message</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_holder">Search Holder...</string>
+    <string name="search_item">Search Item...</string>
+    <string name="add_customer">Add Customer</string>
+</resources>

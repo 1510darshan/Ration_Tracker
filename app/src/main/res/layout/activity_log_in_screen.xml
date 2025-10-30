@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LogInScreen">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100sp"
+            android:src="@drawable/appicon"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/welcome_back"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#E0B439" />
+
+
+        <EditText
+            android:id="@+id/getNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:autofillHints="Enter Number"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/enter_number"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/buttoncircle"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/login"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/rocknrollone" />
+
+            <ImageView
+                android:id="@+id/getStartedIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_arrow_forward_24"
+                app:tint="#FFFFFF" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Don't have and account? "/>
+
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Register"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

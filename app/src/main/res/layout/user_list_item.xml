@@ -1,0 +1,71 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/listImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/listuser"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/circle_background"
+            android:padding="2dp"/>
+
+        <LinearLayout
+            android:id="@+id/textLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/listImage"
+            app:layout_constraintTop_toTopOf="@id/listImage"
+            app:layout_constraintBottom_toBottomOf="@id/listImage"
+            app:layout_constraintEnd_toStartOf="@id/btnRecordRation">
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Darshan Walhe"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/rationNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456789012"
+                android:textSize="14sp"
+                android:textColor="#878787"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRecordRation"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Record"
+            android:textSize="12sp"
+            style="@style/Widget.Material3.Button.TonalButton"
+            app:cornerRadius="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:paddingHorizontal="12dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 1.  **Clone the repo**
     ```sh
-    [git clone https://github.com/your_username/RationTracker.git](https://github.com/1510darshan/Ration_Tracker)
+    git clone https://github.com/your_username/RationTracker.git
     ```
 2.  **Open the project** in Android Studio.
 3.  **Build the project** with Gradle.
@@ -51,7 +51,11 @@ The application uses an SQLite database to store data locally on the device. The
 
 | Login Screen | Home Screen | Inventory Screen |
 | :----------: | :---------: | :--------------: |
-|   *Image*    |   *Image*   |     *Image*      |
+|   <img width="395" height="874" alt="Screenshot from 2025-10-30 09-28-07" src="https://github.com/user-attachments/assets/c2473ad7-d301-4a87-a170-84ae03fbfede" />
+    |   <img width="395" height="874" alt="Screenshot from 2025-10-30 09-26-33" src="https://github.com/user-attachments/assets/195e0d99-ed21-4a88-adae-949e88b7dd5b" />
+   |     <img width="395" height="874" alt="Screenshot from 2025-10-30 09-27-01" src="https://github.com/user-attachments/assets/f5879436-878f-414e-9ade-429aae6d1614" />
+
+      |
 
 
 ## 🤝 Contributing
